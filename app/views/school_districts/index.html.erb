@@ -1,0 +1,7 @@
+<%= include_gon(:camel_case => true) %>
+
+<%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
+
+<%= javascript_include_tag "http://maps.googleapis.com/maps/api/js?key=#{Gon.get_variable('google_api_key')}&sensor=false" %>
+
+<%= javascript_include_tag "school_districts" %>

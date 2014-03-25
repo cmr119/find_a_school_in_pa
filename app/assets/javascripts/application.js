@@ -13,4 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require pa_extjs
+//= require pa_extjs.js
+//= require pa.js
+//= require school_districts_panel.js
+//= require grid/school_districts_grid.js
+//= require grid/school_districts_grid_panel.js
+//= require grid/school_district_details_panel.js
+//= require grid/school_districts_comparison_window.js
+//= require map/school_districts_map.js
+//= require map/school_districts_map_panel.js
+//= require map/school_districts_list.js
+//= require footnote/footnote_panel.js

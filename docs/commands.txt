@@ -1,0 +1,3 @@
+rails new find_a_home_in_pa --database=postgresql
+
+create database pa;

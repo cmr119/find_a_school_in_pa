@@ -1,0 +1,94 @@
+table.thinbordertable {
+    border: 1px solid #a9a9a9;
+    border-collapse: collapse;
+}
+
+.thinbordertable td, .thinbordertable th {
+    border: 1px solid #a9a9a9;
+    text-align: center;
+}
+
+.thinbordertable .ranking {
+    text-align: right;
+}
+
+.thinbordertable .map {
+    padding: 5px;
+}
+
+.pa-list-item {
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.list-not-selected {
+    background-color: WHITE;
+    background-image: url("square-add-16.png");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+.list-selected {
+    background-color: #ff7f24;
+    background-image: url("square-subtract-16.png");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+.pa-panel {
+    background-color: #a9a9a9;
+}
+
+.pa-nav-menu {
+    position: fixed;
+    top: 0px;
+    background-color: #a9a9a9
+}
+
+.pa-nav-menu-item {
+    display: block;
+    margin: 20px 13px;
+    cursor: pointer;
+}
+
+.pa-window {
+    background-color: #696969;
+    border-color: #696969;
+}
+
+.pa-footnote-panel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.x-border-layout-ct {
+    background-color: #a9a9a9;
+}
+
+.x-panel-default {
+    border-color: #a9a9a9;
+}
+
+.x-panel-body-default {
+    border-color: #a9a9a9;
+}
+
+.x-window-header-default-top {
+    background-color: #696969;
+    border-color: #696969;
+}
+
+.x-window-header-default .x-tool-img {
+    background-color: #696969;
+}
+
+.x-window-default {
+    border-color: #696969;
+}
+
+.x-toolbar-default {
+    background-color: #ff7f24;
+}
+
+.x-splitter {
+    background-color: #a9a9a9;
+}

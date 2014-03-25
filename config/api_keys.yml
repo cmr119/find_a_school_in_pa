@@ -1,0 +1,12 @@
+defaults: &defaults
+  google: ''
+  zwsid: ''
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

@@ -17,3 +17,5 @@
 /.idea
 
 bin/database
+config/api_keys.yml
+config/database.yml

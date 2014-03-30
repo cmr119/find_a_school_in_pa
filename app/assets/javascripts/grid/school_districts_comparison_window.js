@@ -3,6 +3,7 @@ Ext.define("pa.extjs.SchoolDistrictsComparisonWindow", {
     alias: "widget.schooldistrictscomparisonwindow",
 
     border: false,
+    height: 600,
     autoScroll: true,
     bodyPadding: 10,
     cls: "pa-window",

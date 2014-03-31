@@ -44,7 +44,7 @@ namespace :deploy do
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
       # Your restart mechanism here, for example:
-      #execute :touch, release_path.join('tmp/restart.txt')
+      execute "touch #{release_path}/tmp/restart.txt"
     end
   end
 
@@ -59,4 +59,9 @@ namespace :deploy do
     end
   end
 
+  task :updated do
+    on roles(:web) do
+      execute "ln -s #{release_path}/vendor/assets/stylesheets/pa_extjs/resources/ext-theme-neptune/images/* #{release_path}/public/images/"
+    end
+  end
 end

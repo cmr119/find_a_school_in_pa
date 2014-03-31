@@ -22,14 +22,14 @@ table.thinbordertable {
 
 .list-not-selected {
     background-color: WHITE;
-    background-image: url("square-add-16.png");
+    background-image: url("/images/square-add-16.png");
     background-repeat: no-repeat;
     background-position: 98% 50%;
 }
 
 .list-selected {
     background-color: #ff7f24;
-    background-image: url("square-subtract-16.png");
+    background-image: url("/images/square-subtract-16.png");
     background-repeat: no-repeat;
     background-position: 98% 50%;
 }

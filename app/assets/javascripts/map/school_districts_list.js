@@ -4,7 +4,7 @@ Ext.define("pa.extjs.SchoolDistrictsList", {
 
     cls: "pa-panel",
     border: false,
-    width: 250,
+    width: 275,
     autoScroll: true,
     layout: 'vbox',
     margin: "0 5 0 0 ",

@@ -18,7 +18,7 @@ Ext.define("pa.extjs.FootnotePanel", {
         "that were most important to us, we developed a point system to help aid our search:" +
         "<ul>" +
         "<li>ranking_points = (&lt;max 2013 ranking&gt; / 2) - ((&lt;school district 2013 ranking&gt; - 1) / 2)</li>" +
-        "<li>zillow points = (&lt;max zillow home value index&gt; - &lt;school district zillow home value index&gt;) / 1000</li>" +
+        "<li>zillow points = (&lt;max zillow home value index&gt; - &lt;school district zillow home value index&gt;) / 10000</li>" +
         "<li>distance points = (&lt;max distance from Pittsburgh&gt; - &lt;school district distance from Pittsburgh&gt;) / 10</li>" +
         "</ul>"
 });

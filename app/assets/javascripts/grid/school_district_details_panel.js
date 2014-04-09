@@ -55,7 +55,7 @@ Ext.define("pa.extjs.SchoolDistrictsDetailsPanel", {
 
         var googleMap = Ext.create("Ext.Img", {
             region: "south",
-            src: "http://maps.googleapis.com/maps/api/staticmap?size=300x300&center=Pittsburgh, PA&maptype=roadmap&sensor=false"
+            src: ""
         });
 
         self.items = [detailsPanel, googleMap];
@@ -64,6 +64,10 @@ Ext.define("pa.extjs.SchoolDistrictsDetailsPanel", {
             detailsPanel.update(record.data);
             googleMap.setSrc("http://maps.googleapis.com/maps/api/staticmap?size=300x300&center=Pittsburgh, PA&maptype=roadmap&markers=" + record.get("address") + "&sensor=false");
         };
+
+        self.on('afterrender', function() {
+            googleMap.setSrc("http://maps.googleapis.com/maps/api/staticmap?size=300x300&center=Pittsburgh, PA&maptype=roadmap&sensor=false");
+        })
 
         self.callParent();
     }
